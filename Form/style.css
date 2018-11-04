@@ -1,0 +1,42 @@
+*{
+  font-family: Arial !important;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  margin: 4px;
+  padding: 2px 0 2px 15px;
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  height: 20px;
+}
+
+button{
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid;
+  color: white;
+  background-color: #393939;
+  border-radius: 10px;
+  width: 200px;
+  height: 35px;
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.val_error{
+  color: red;
+}
